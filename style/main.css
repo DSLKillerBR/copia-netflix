@@ -1,0 +1,66 @@
+:root{ /*raiz do css*/
+    --vermelho: #e50914;
+    --preta: #141414;
+    /*Estamos definindo qual vai ser o código do vermelho e qual vai ser preto*/
+}
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+
+header .container{ /*class tem que colocar ponto antes*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #e5e5e5;
+    margin-right: 2px;
+}
+
+header nav a:hover{ /* o :hover serve para quando o mouse está em cima dos componentes escolhidos*/
+    color: #fff;
+}
+
+/*filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50) 100%), url(/img/i0uajcHH9yogXMfDHpOXexIukG9.jpg);
+    /*colocamos uma imagem de background e degradê*/
+    height: 1000px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+
+    margin-bottom: 90px;
+}
+
+.titulo{
+    font-size: 50px;
+}
+
