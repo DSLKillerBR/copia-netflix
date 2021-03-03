@@ -47,7 +47,7 @@ header nav a:hover{ /* o :hover serve para quando o mouse está em cima dos comp
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50) 100%), url(/img/i0uajcHH9yogXMfDHpOXexIukG9.jpg);
     /*colocamos uma imagem de background e degradê*/
-    height: 1000px;
+    height: 800px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -58,9 +58,48 @@ header nav a:hover{ /* o :hover serve para quando o mouse está em cima dos comp
 .filme-principal .descricao{
 
     margin-bottom: 90px;
+    margin-top: 10px;
+
 }
 
 .titulo{
+    margin-top: 15%;
     font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.botao{ /*alterando os botões*/
+    background-color: rgba(0,0,0,0.50);
+    border: none;
+    color: white;
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer; /* aparece a mãozinha de clicar quando passa o mouse*/
+    transition: .4s ease all; /*animação */
+}
+
+.botao:hover{ /*alterando quando passa o mouse nos botões*/
+    background-color: white;
+    color: black;
+}
+
+.botao i{ /* estamos alterando apenas os ícones*/
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+
+}
+
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}

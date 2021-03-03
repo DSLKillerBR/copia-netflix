@@ -1,10 +1,19 @@
+<!--
+    O papel do desenvolvedor não é só escrever código, e sim resolver uma necessidade.
+-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
-    <title>Netflix Brasil - assistir a séries online, assistir a filmes online</title>
+
+    <!--owl carousel css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+
+    <title>Netflix</title>
 </head>
 <body>
     <header>
@@ -30,9 +39,11 @@
                     <div class="botoes">
                         <button role="button" class="botao">
                             <!--usar o role para deixar claro que é um botão-->
+                            <i class="fas fa-play"></i>
                             ASSISTIR AGORA
                         </button>
                         <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
                             MAIS INFORMAÇÕES
                         </button>
                     </div>
@@ -42,7 +53,55 @@
         </div>
     </main>
 
+    <div class="carrosel-filme">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                        <img class=".box-filme" src="img/EpDuYIK81YtCUT3gH2JDpyj8Qk.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                        <img class=".box-filme" src="img/peaky.jpg" alt="" srcset="">
+                </div>
+                    <div class="item">
+                        <img class=".box-filme" src="img/iiCY2QIGSnmtVkIdjkKAfwDs0KF.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class=".box-filme" src="img/kP8Z51s9D8tiGnoRbL88db0e2jv.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class=".box-filme" src="img/pHcNHYPg0c2vg7qay6wjJoApUgS.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class=".box-filme" src="img/sTvXT5aXXD6S8QWqnbDnkMX1DCD.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class=".box-filme" src="img/sVHs1XFdXbFl9GznwKHw2iSgq2e.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class=".box-filme" src="img/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" alt="" srcset="">
+                    </div>
+                    <div class="item">
+                        <img class=".box-filme" src="img/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg" alt="" srcset="">
+                    </div>
 
+            </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6686f870aa.js" crossorigin="anonymous"></script>
+    <!--Colocar Javascript no final do código, porque pode dar erro se 
+    for carregado antes da página-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    
 
 </body>
 </html>
+
+<!--
+    COMO USAR O FONT AWESOME:
+    -ENTRAR NO SITE E PEGAR O LINK
+    -COLAR NO BODY OU HEAD
+    -ESCOLHER OS ÍCONES
+    -COPIAR O CÓDIGO HTML DO ÍCONE
+    -COLAR NO BOTÃO OU ONDE QUISER USAR
+-->
