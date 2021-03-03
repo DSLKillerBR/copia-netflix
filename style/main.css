@@ -12,7 +12,7 @@
 
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
@@ -47,7 +47,7 @@ header nav a:hover{ /* o :hover serve para quando o mouse está em cima dos comp
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50) 100%), url(/img/i0uajcHH9yogXMfDHpOXexIukG9.jpg);
     /*colocamos uma imagem de background e degradê*/
-    height: 800px;
+    height: 600px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -102,4 +102,8 @@ header nav a:hover{ /* o :hover serve para quando o mouse está em cima dos comp
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filme{
+    margin-top: 5px;
 }
